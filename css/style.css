@@ -1,5 +1,5 @@
 :root{
-  --main-font:"Roboto" , sans-serif;
+  --main-font: "Roboto" , sans-serif;
   --secondary-font: "Raleway", sans-serif ;
   --accent-color: #212121;
   --secondary-color:#757575;
@@ -153,6 +153,13 @@ img{
    /* ========================HERO==========================*/
 .hero{
     background-color: #2F303A;
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+      ), 
+    url(../imagens/hero/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .hero .container{
@@ -162,7 +169,7 @@ img{
 
 .title{
    font-family:var(--main-font);
-   font-weight: 900;
+   font-weight: 900px;
    font-size: 44px;
    line-height: 1.36;
    text-align: center;
@@ -306,7 +313,7 @@ img{
   align-items: center;
   width: 44px;
   height: 44px;
-  /* outline: 1px solid black; */
+  color: #afb1b8;
   border-radius: 50%;
 }
 
@@ -383,9 +390,17 @@ img{
 
   display: block;
   margin-bottom: 20px;
-
 }
 
+.slogan{
+  font-family: var(--main-font);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 /* ========================END FOOTER======================*/
 /* ======================PORTFOLIO MAIN====================*/
 .main-footer>.container{
