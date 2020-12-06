@@ -282,11 +282,47 @@ img{
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-color)
+  color: var(--secondary-color);
+  margin-bottom: 16px;
+  
 }
 
 .section-workers-item{
   margin-bottom: 94px;
+}
+
+.social-list-links{
+  display: flex;
+  justify-content: center;
+}
+
+.social-item:not(:last-child){
+  margin-right: 10px;
+}
+
+.social-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  /* outline: 1px solid black; */
+  border-radius: 50%;
+}
+
+/* .social-link:hover .social-icon,
+.social-link:focus .social-icon{
+  fill:#FFFFFF;
+} */
+
+.social-link:hover,
+.social-link:focus{
+  color:#FFFFFF;
+  background-color: #2196F3;
+}
+
+.social-icon{
+  fill: currentColor;
 }
 
 .worker-card{
