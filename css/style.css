@@ -148,6 +148,12 @@ img{
    text-decoration: none;
   }
 
+  .contact-icon{
+    margin-right: 10px;
+    fill: currentColor;
+    
+  }
+
    /* =====================END HEADER======================*/
 
    /* ========================HERO==========================*/
