@@ -95,11 +95,15 @@ img{
       margin-right: 93px;
     }
 
-    .contact{
+    .header .contact{
       margin-left: auto;
+
+      /* display: inline-block; */
+      align-items: baseline;
+      
     }
     .header .contact-email{
-      margin-right: 50px;
+      margin-right: 30px;
     }
 
    .logo{   
@@ -146,6 +150,7 @@ img{
    text-align: left;
    color: var(--secondary-color);
    text-decoration: none;
+
   }
 
   .contact-icon{
