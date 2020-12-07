@@ -64,9 +64,9 @@ img{
   /* =====================END COMPONENTS======================*/
 
    /* =======================HEADER=========================*/
-    /* * {
+    * {
      outline: 1px solid black;
-   }   */
+   }  
 
     .header{
       padding-top: 30px;
@@ -338,6 +338,42 @@ img{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/*==== Постоянные клиенты=====  */
+.clients>.container{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list{
+  display: flex;
+}
+
+.clients-link{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  color: #AFB1B8 ;
+}
+
+.clients-link:hover,
+.clients-link:focus{
+  border: 1px solid #2196F3;
+  color:#2196F3
+}  
+
+.clients-icon{
+  fill: currentColor;
+}
+
+.clients-item:not(:last-child){
+  margin-right: 30px;
+}
+
 /* ========================END MAIN========================*/
 
 /* ==========================FOOTER=======================*/
@@ -346,10 +382,16 @@ img{
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* .footer>.container{
-  padding-top: 60px;
-  padding-bottom: 60px;
-} */
+
+.footer > .container{
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-adress-container{
+  margin-right: 70px;
+}
+
 
 .address{
   font-style: normal;
@@ -400,6 +442,17 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.footer .social-link{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus{
+  background-color: #2196F3;
 }
 /* ========================END FOOTER======================*/
 /* ======================PORTFOLIO MAIN====================*/
